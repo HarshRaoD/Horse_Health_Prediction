@@ -1,0 +1,105 @@
+{
+    "COLUMNS_TO_BE_DROPPED": [
+        "id",
+        "hospital_number"
+    ],
+    "BINARY_COLUMNS": [
+        "age",
+        "surgical_lesion",
+        "surgery",
+        "cp_data"
+    ],
+    "NUMERICAL_COLUMNS": [
+        "rectal_temp",
+        "pulse",
+        "respiratory_rate",
+        "nasogastric_reflux_ph",
+        "packed_cell_volume",
+        "total_protein",
+        "abdomo_protein",
+        "lesion_1",
+        "lesion_2",
+        "lesion_3"
+    ],
+    "MULTI_TYPE_COLUMNS": [
+        "abdomen",
+        "mucous_membrane"
+    ],
+    "ORDINAL_TYPE_COLUMNS": {
+        "temp_of_extremities": {
+            "cold": 0,
+            "cool": 1,
+            "normal": 2,
+            "warm": 3,
+            "nan": 2
+        },
+        "peripheral_pulse": {
+            "absent": 0,
+            "reduced": 1,
+            "normal": 2,
+            "increased": 3,
+            "nan": 2
+        },
+        "capillary_refill_time": {
+            "less_3_sec": 0,
+            "3": 1,
+            "more_3_sec": 2,
+            "nan": 1
+        },
+        "pain": {
+            "alert": 0,
+            "depressed": 1,
+            "slight": 2,
+            "moderate": 3,
+            "mild_pain": 4,
+            "severe_pain": 5,
+            "extreme_pain": 6,
+            "nan": -1
+        },
+        "peristalsis": {
+            "hypermotile": 0,
+            "normal": 1,
+            "hypomotile": 2,
+            "absent": 3,
+            "nan": 1,
+            "distend_small": 2
+        },
+        "abdominal_distention": {
+            "none": 0,
+            "slight": 1,
+            "moderate": 2,
+            "severe": 3,
+            "nan": 0
+        },
+        "nasogastric_tube": {
+            "none": 0,
+            "slight": 1,
+            "significant": 2,
+            "nan": 0
+        },
+        "nasogastric_reflux": {
+            "less_1_liter": 1,
+            "none": 0,
+            "more_1_liter": 2,
+            "nan": 0,
+            "slight": 1
+        },
+        "rectal_exam_feces": {
+            "absent": 0,
+            "decreased": 1,
+            "normal": 2,
+            "increased": 3,
+            "nan": 0,
+            "serosanguious": 4
+        },
+        "abdomo_appearance": {
+            "clear": 0,
+            "cloudy": 1,
+            "serosanguious": 2,
+            "nan": 0
+        }
+    },
+    "TARGET": [
+        "outcome"
+    ]
+}
