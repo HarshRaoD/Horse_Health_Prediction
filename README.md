@@ -5,13 +5,13 @@ Model Submissions Excel: [here](https://docs.google.com/spreadsheets/d/1BmkAvdSX
 Report Word Doc: [here](https://entuedu-my.sharepoint.com/:w:/g/personal/kshitij003_e_ntu_edu_sg/ERMb5d-Q7qVMvGDwpyN-P1sBzO1CFNqDTiDLk-PvhbiGtA?e=sqUPfs)
 
 ## Things to Try
-- [ ] Implement Hist Gradient Boosting
-- [ ] Integrate NN with Ensemble
-- [ ] K-Fold Cross Validation  
+- [x] Implement Hist Gradient Boosting
+- [x] Integrate NN with Ensemble
+- [x] K-Fold Cross Validation  
 - [ ] External Dataset Integration (https://www.kaggle.com/datasets/uciml/horse-colic)
 - [ ] Hospital Record
-- [ ] Ordinal Encoding on deviation from normal
-- [ ] Policy to deal with nan values
+- [x] Ordinal Encoding on deviation from normal
+- [x] Policy to deal with nan values
 - [ ] Revise Numerical to deviation from normal
 - [ ] Implement Feature Enginering as part of the pipeline
 
